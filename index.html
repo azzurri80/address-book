@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Address Book</title>
+  </head>
+  <body>
+    <div id="blanks">
+      <form>
+        <div class="form-group">
+          <label for="contactName">Name:</label>
+          <input id="contactName" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="phoneNumber">Phone number:</label>
+          <input id="phoneNumber" class="form-control" type="number">
+        </div>
+        <div class="form-group">
+          <label for="contactEmail">Email:</label>
+          <input id="contactEmail" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="streetAddress">Address:</label>
+          <input id="streetAddress" class="form-control" type="text">
+        </div>
+
+        <button class="submit" type="btn">Add to address book</button>
+
+    <div id="contactNames">
+      <ul>
+        <li><span class="contactName"></span></li>
+      </ul>
+    </div>
+
+    <div id="contactInformation">
+      <ul>
+        <li><span class="contactName"></span></li>
+        <li><span class="phoneNumber"></span></li>
+        <li><span class="contactEmail"></span></li>
+        <li><span class="streetAddress"></span></li>
+      </ul>
+    </div>
+
+  </body>
+</html>
